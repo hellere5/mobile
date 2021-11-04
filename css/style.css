@@ -56,9 +56,11 @@ p{
 }
 
 .flip-container{
-  display: flex;
+  /* display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: center; */
+  margin: auto;
+  display: block;
 }
 
 .item1{
@@ -82,7 +84,7 @@ footer{
 }
 
 .flip-box-front img{
-  height: 400px;
+  /* height: 400px; */
   width: 400px;
   border: 2px solid #000000;
   padding: 10px;
@@ -113,7 +115,7 @@ img{
 .skip:focus {
   position: absolute;
   top: 20px
-  }
+}
   
 .nav_links :visited{
   color: #000000;
@@ -126,10 +128,42 @@ a:visited{
 .flip-box {
   background-color: transparent;
   width: 400px;
-  height: 400px;
+  /* height: 400px; */
+  margin: auto;
+  display: block;
+}
+
+.flip-container h2{
+  font-size: 25px;
+  padding-top: 10px;
+  /* padding-bottom: 10px; */
+  font-weight: bolder;
+  color:#000000;
+  text-align: center;
+}
+
+.flip-container p{
+  font-size: 18px;
+  justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  /* padding-right: 30px;
+  padding-left: 10px; */
+  text-align: center;
+}
+
+.flip-box-back a{
+  font-size: 16px;
+  /* padding-right: 30px;
+  padding-left: 10px; */
+  padding-bottom: 25px;
+  text-align: center;
+  align-content: center;
+  margin: auto;
+  display: block;
 }
   
-.flip-box-inner {
+/* .flip-box-inner {
   position: relative;
   width: 400px;
   height: 400px;
@@ -177,4 +211,4 @@ a:visited{
   background-color: #f7c2c2;
   color: #000000;
   transform: rotateY(180deg);
-}
+} */
