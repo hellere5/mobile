@@ -19,8 +19,9 @@ h1{
   padding-top: 10px;
   padding-bottom: 10px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-evenly;
+  text-align: center;
 }
 
 .nav_links a:hover{
