@@ -13,6 +13,10 @@ h1{
   padding-top: 10px;
 }
 
+title{
+  text-align: center;
+}
+
 .nav_links {
   background-color: #f7c2c2;
   border: 2px solid #000000;
